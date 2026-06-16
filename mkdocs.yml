@@ -1,0 +1,28 @@
+site_name: Williamwu
+site_description: Personal Blog, Projects and Research Portfolio
+site_author: William Wu
+site_url: https://empandme.github.io/Personal-Blog/
+
+theme:
+  name: material
+  
+  palette:
+  - scheme: default
+    primary: blue
+    accent: blue
+
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - content.code.copy
+
+  plugins:
+    search
+
+  markdown_extensions:
+    admonition
+    attr_list
+    md_in_html
