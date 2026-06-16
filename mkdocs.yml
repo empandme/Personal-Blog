@@ -8,10 +8,15 @@ theme:
   
   palette:
   - scheme: default
-    primary: blue
-    accent: blue
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: material/brightness-7 
+      name: Switch to dark mode
 
   features:
+  - navigation.instant
+  - navigation.instant.progress
   - navigation.tabs
   - navigation.sections
   - navigation.top
